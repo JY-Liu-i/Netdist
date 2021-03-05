@@ -1,0 +1,55 @@
+
+.dir_text {
+    padding: 0;
+	background: none;
+    border: 0px none;  //去边框
+    text-decoration:underline;  //加下划线
+}  
+.dir_text:hover{  
+    color:red;  
+    border: none;  
+    cursor: hand;  
+    cursor: pointer;  
+    text-decoration:underline;  //加下划线
+}  
+.dir_text:focus {   
+    outline: none;    //去边框  
+}
+
+.table_header{
+	background: #EFFBFB;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;top:expressionthis.offsetParent.scrollTop-2);
+}
+
+.table_item{
+	background: white;
+}
+.table_item:hover{
+	background: #F2F2F2;
+}
+
+.table_path{
+    background: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;top:expressionthis.offsetParent.scrollTop-2);
+}
+
+.path_text{
+    padding: 0;
+    background: none;
+    border: 0px none;  //去边框
+}
+
+.path_text:hover{  
+    color:blue;  
+    border: none;  
+    cursor: hand;  
+    cursor: pointer;  
+    text-decoration:underline;  //加下划线
+}  
+.path_text:focus {   
+    outline: none;    //去边框  
+}
